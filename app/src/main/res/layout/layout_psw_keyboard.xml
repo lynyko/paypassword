@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCDCDC">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:padding="5dp"
+        android:gravity="center"
+        android:text="支付键盘"
+        android:textColor="#808080"
+        android:textSize="12dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal">
+dp
+        <Button android:id="@+id/tv_1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/keyboard_bg_selector"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+        <Button android:id="@+id/tv_2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_margin="1dp"
+            android:background="@drawable/keyboard_bg_selector"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+        <Button android:id="@+id/tv_3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/keyboard_bg_selector"
+            android:gravity="center"
+            android:text="3"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/tv_4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/keyboard_bg_selector"
+            android:gravity="center"
+            android:text="4"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+
+        <Button android:id="@+id/tv_5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_margin="1dp"
+            android:background="@drawable/keyboard_bg_selector"
+            android:gravity="center"
+            android:text="5"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+        <Button android:id="@+id/tv_6"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/keyboard_bg_selector"
+            android:gravity="center"
+            android:text="6"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/tv_7"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/keyboard_bg_selector"
+            android:gravity="center"
+            android:text="7"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+        <Button android:id="@+id/tv_8"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_margin="1dp"
+            android:background="@drawable/keyboard_bg_selector"
+            android:gravity="center"
+            android:text="8"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+        <Button android:id="@+id/tv_9"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/keyboard_bg_selector"
+            android:gravity="center"
+            android:text="9"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="1dp"
+            android:visibility="invisible"
+            android:layout_weight="1"
+            android:background="@drawable/keyboard_bg_selector"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+        <Button android:id="@+id/tv_0"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_margin="1dp"
+            android:background="@drawable/keyboard_bg_selector"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+
+        <FrameLayout android:id="@+id/ly_back"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/keyboard_bg_selector">
+            <ImageView android:id="@+id/iv_back"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@mipmap/keyboard_delete_img"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>
